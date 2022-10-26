@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="{{url_for('static', filename='js/main.js') }}"></script>
+        <title>Word Of The Day</title>
+    </head>
+    <body onload="getQuotes()">
+        <div class="container">
+            <div id="content">
+                <h1>Here's the quote of the day</h1>
+                <p id="quotes"></p>
+            </div>
+        </div>
+    </body>
+
+
+
+</html>
