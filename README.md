@@ -1,6 +1,6 @@
 # WordOfTheDay
 A simple web app that gives you various quotes for inspiration
-
+<img src="screenshot.jpg" width="350" title="hover text">
 # What I learned
 
 - More fundamental JavaScript
